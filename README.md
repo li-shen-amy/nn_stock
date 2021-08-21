@@ -4,7 +4,12 @@ Creates forecasts of a time series on t+1 using nearest neighbour algorithm.
 
 ## Usage:
 ```.py
-[OutSample_For,InSample_For,InSample_Res]=nearest_neighbour.nn(data, train_len, embed_dim, k_nearest, method='correlation', n_out_sample=0)
+[OutSample_For,InSample_For,InSample_Res]=nearest_neighbour.nn(data, 
+                                                               train_len, 
+                                                               embed_dim, 
+                                                               k_nearest, 
+                                                               method='correlation', 
+                                                               n_out_sample=0)
 ```
 ### INPUT:  
 
