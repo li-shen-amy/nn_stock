@@ -1,5 +1,4 @@
-# nn_stock
-Implement Nearest Neighbor method to predict stock
+# Implement Nearest Neighbor method to predict stock
 
 Creates forecasts of a time series on t+1 using nearest neighbour algorithm.
 
